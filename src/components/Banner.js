@@ -36,7 +36,7 @@ const Banner = () => {
   };
   return (
     <Slider
-      className="flex object-cover w-screen bg-no-repeat   "
+      className="flex object-cover w-full bg-no-repeat   "
       {...settings}
     >
       {data.map((e) => (
